@@ -7,14 +7,14 @@
 ![git installer1](./images/installer1.png)
 1. インストール場所を確認し，Nextをクリック．
 ![git installer2](./images/installer2.png)
-1. 以下の項目にチェックを入れ，Nextをクリック．
+1. 項目を確認し，Nextをクリック．
+![git installer3](./images/installer3.png)
     - Windows Exploror Integration
     - Git Bash Here
     - Git GUI Here
     - Git LFS
     - Associate .git* configuration files with the default text editor
     - Associate .sh files to be run with Bash
-![git installer3](./images/installer3.png)
 1. `Git`のままNextをクリック．
 ![git installer4](./images/installer4.png)
 1. デフォルトエディタをVisual Studio Codeに変更．
