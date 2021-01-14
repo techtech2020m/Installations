@@ -3,11 +3,11 @@
 ## Gitのインストール
 
 1. こちらの[リンク](https://git-scm.com/download/win)からインストーラをダウンロード．
-1. インストーラを実行し，ライセンスを確認後，Nextをクリック．
+1. インストーラを実行し，ライセンスを確認後，Nextをクリック．</br>
 ![git installer1](./images/installer1.png)
-1. インストール場所を確認し，Nextをクリック．
+1. インストール場所を確認し，Nextをクリック．</br>
 ![git installer2](./images/installer2.png)
-1. 項目を確認し，Nextをクリック．
+1. 項目を確認し，Nextをクリック．</br>
 ![git installer3](./images/installer3.png)
     - Windows Exploror Integration
     - Git Bash Here
@@ -15,31 +15,31 @@
     - Git LFS
     - Associate .git* configuration files with the default text editor
     - Associate .sh files to be run with Bash
-1. `Git`のままNextをクリック．
+1. `Git`のままNextをクリック．</br>
 ![git installer4](./images/installer4.png)
 1. デフォルトエディタをVisual Studio Codeに変更．
 (必須ではないが推奨)
-変更しない場合はそのままNextをクリック．
+変更しない場合はそのままNextをクリック．</br>
 ![git installer5](./images/installer5.png)
-1. `Let Git decide`を選択し，Nextをクリック．
+1. `Let Git decide`を選択し，Nextをクリック．</br>
 ![git installer6](./images/installer6.png)
-1. `Git from the command line and also from 3rd-party software`を選択し，Nextをクリック．
+1. `Git from the command line and also from 3rd-party software`を選択し，Nextをクリック．</br>
 ![git installer7](./images/installer7.png)
-1. `Use the OpenSSL library`を選択し，Nextをクリック．
+1. `Use the OpenSSL library`を選択し，Nextをクリック．</br>
 ![git installer8](./images/installer8.png)
 1. `Checkout as-is, commit as-is`を選択し，Nextをクリック．
-OSによって異なる改行コードを自動で変換してくれるが，トラブルの元になる可能性があるため，無効化しておく方が良いらしい．
+OSによって異なる改行コードを自動で変換してくれるが，トラブルの元になる可能性があるため，無効化しておく方が良いらしい．</br>
 ![git installer9](./images/installer9.png)
 1. `Use MinTTY`を選択し，Nextをクリック．
-(コマンドプロンプトに思い入れがあるなら`Use Windows' default console window`を選択しても良い．)
+(コマンドプロンプトに思い入れがあるなら`Use Windows' default console window`を選択しても良い．)</br>
 ![git installer10](./images/installer10.png)
-1. `Default`を選択し，Nextをクリック．
+1. `Default`を選択し，Nextをクリック．</br>
 ![git installer11](./images/installer11.png)
-1. `Git Credential Manager Core`を選択し，Nextをクリック．
+1. `Git Credential Manager Core`を選択し，Nextをクリック．</br>
 ![git installer12](./images/installer12.png)
-1. `Enable file system caching`，`Enable symbolic links`にチェックを入れ，Nextをクリック．
+1. `Enable file system caching`，`Enable symbolic links`にチェックを入れ，Nextをクリック．</br>
 ![git installer13](./images/installer13.png)
-1. `Enable experimental support for pseudo consoles`にはチェックを入れずに，Installをクリック．
+1. `Enable experimental support for pseudo consoles`にはチェックを入れずに，Installをクリック．</br>
 ![git installer14](./images/installer14.png)
 
 ---
