@@ -4,11 +4,11 @@
 
 1. こちらの[リンク](https://git-scm.com/download/win)からインストーラをダウンロード．
 1. インストーラを実行し，ライセンスを確認後，Nextをクリック．
-  ![git installer1](./images/installer1.png)
+</br>![git installer1](./images/installer1.png)
 1. インストール場所を確認し，Nextをクリック．
-  ![git installer2](./images/installer2.png)
+</br>![git installer2](./images/installer2.png)
 1. 項目を確認し，Nextをクリック．
-  ![git installer3](./images/installer3.png)
+</br>![git installer3](./images/installer3.png)
     - Windows Exploror Integration
     - Git Bash Here
     - Git GUI Here
@@ -16,31 +16,31 @@
     - Associate .git* configuration files with the default text editor
     - Associate .sh files to be run with Bash
 1. `Git`のままNextをクリック．
-  ![git installer4](./images/installer4.png)
+</br>![git installer4](./images/installer4.png)
 1. デフォルトエディタをVisual Studio Codeに変更．
   (必須ではないが推奨)
   変更しない場合はそのままNextをクリック．
-  ![git installer5](./images/installer5.png)
+</br>![git installer5](./images/installer5.png)
 1. `Let Git decide`を選択し，Nextをクリック．
-  ![git installer6](./images/installer6.png)
+</br>![git installer6](./images/installer6.png)
 1. `Git from the command line and also from 3rd-party software`を選択し，Nextをクリック．
-  ![git installer7](./images/installer7.png)
+</br>![git installer7](./images/installer7.png)
 1. `Use the OpenSSL library`を選択し，Nextをクリック．
-  ![git installer8](./images/installer8.png)
+</br>![git installer8](./images/installer8.png)
 1. `Checkout as-is, commit as-is`を選択し，Nextをクリック．
   OSによって異なる改行コードを自動で変換してくれるが，トラブルの元になる可能性があるため，無効化しておく方が良いらしい．
-  ![git installer9](./images/installer9.png)
+</br>![git installer9](./images/installer9.png)
 1. `Use MinTTY`を選択し，Nextをクリック．
   (コマンドプロンプトに思い入れがあるなら`Use Windows' default console window`を選択しても良い．)
-  ![git installer10](./images/installer10.png)
+</br>![git installer10](./images/installer10.png)
 1. `Default`を選択し，Nextをクリック．
-  ![git installer11](./images/installer11.png)
+</br>![git installer11](./images/installer11.png)
 1. `Git Credential Manager Core`を選択し，Nextをクリック．
-  ![git installer12](./images/installer12.png)
+</br>![git installer12](./images/installer12.png)
 1. `Enable file system caching`，`Enable symbolic links`にチェックを入れ，Nextをクリック．
-  ![git installer13](./images/installer13.png)
+</br>![git installer13](./images/installer13.png)
 1. `Enable experimental support for pseudo consoles`にはチェックを入れずに，Installをクリック．
-  ![git installer14](./images/installer14.png)
+</br>![git installer14](./images/installer14.png)
 
 ---
 
@@ -165,9 +165,9 @@ Fast-forward
 (無料アカウントで良い)
 1. リモートリポジトリにアクセスする．
 なければ作成することになるが，リポジトリの名前と，`public`，`private`以外はデフォルトで良い．
-  ![GitHub1](./images/github1.png)
+</br>![GitHub1](./images/github1.png)
 1. 緑色の`Code`ボタンをクリックし，`https`から始まるURLをコピーする．
-  ![GitHub2](./images/github2.png)
+</br>![GitHub2](./images/github2.png)
 1. ローカルリポジトリとリモートリポジトリを関連付ける．
     - GitHubにあるプロジェクトをクローンする場合．
     ターミナルで次のコマンドを実行する．

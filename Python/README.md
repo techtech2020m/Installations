@@ -8,11 +8,11 @@
   `Add Python3.7 to PATH`はチェックしなくても良い．
   デフォルトのインストール先は`C:/Users/[UserName]/AppData/Local/Programs/Python/Python37`になる．
   **変更したい場合はCustomize Installationをクリック．**
-  ![python installer1](./images/installer1.png)
+</br>![python installer1](./images/installer1.png)
   `Customize Installation`を選択した場合は，全てチェックを付けてNextをクリック．
   `Documentation`は任意．
-  ![python installer2](./images/installer2.png)
-  ![python installer3](./images/installer3.png)
+</br>![python installer2](./images/installer2.png)
+</br>![python installer3](./images/installer3.png)
 これでPythonのインストールは完了．
 
 ---
