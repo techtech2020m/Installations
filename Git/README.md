@@ -156,3 +156,52 @@ Fast-forward
 ```:
 > git checkout -f
 ```
+
+---
+
+### GitHubを用いた開発
+
+1. GitHubのアカウントを作成する．
+(無料アカウントで良い)
+1. リモートリポジトリにアクセスする．
+なければ作成することになるが，リポジトリの名前と，`public`，`private`以外はデフォルトで良い．
+  ![GitHub1](./images/github1.png)
+1. 緑色の`Code`ボタンをクリックし，`https`から始まるURLをコピーする．
+  ![GitHub2](./images/github2.png)
+1. ローカルリポジトリとリモートリポジトリを関連付ける．
+    - GitHubにあるプロジェクトをクローンする場合．
+    ターミナルで次のコマンドを実行する．
+
+    ```:
+    > git clone https://github.com/[UserName]/[RepositoryName] [Path]
+    ```
+
+    `https://github.com/[UserName]/[RepositoryName]`の部分は先ほどコピーしたURL，`[Path]`はプロジェクトの保存先を指定する．
+    `[Path]`を省略すると，カレントディレクトリに`[RepositoryName]`として保存される．
+
+    - ローカルでGitの管理下にあるプロジェクトをGitHubに上げる場合．
+    ターミナルで次のコマンドを実行する．
+
+    ```:
+    > git remote add [Alias] https://github.com/[UserName]/[RepositoryName]
+    ```
+
+    `https://github.com/[UserName]/[RepositoryName]`の部分は先ほどコピーしたURLを指定する．
+    `[Alias]`にはリモートリポジトリのエイリアスを指定する．(通常は`origin`とすることが多い)
+
+### リモートリポジトリに変更を反映する
+
+1. リモートリポジトリに変更を反映する前に，ローカルリポジトリを最新の状態にする．
+次のコマンドを実行して，リモートリポジトリとの差分をローカルリポジトリに反映させる．
+
+```:
+> git pull origin master
+```
+
+1. 次のコマンドを実行して，リモートリポジトリに変更を反映する．
+
+```:
+> git push origin master
+```
+
+何事もなければこれでリモートリポジトリへの反映が完了する．
